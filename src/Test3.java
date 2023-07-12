@@ -19,7 +19,7 @@ public class Test3 {
         catch (Exception s) {
             System.out.println("Something went wrong.");
         }
-        System.out.println(5);
+        System.out.println(6);
     }
 
 
