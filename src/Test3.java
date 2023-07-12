@@ -6,5 +6,22 @@ public class Test3 {
         }
         System.out.println(sum);
 
+        int time = 20;
+        String result = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
+
+
+        try
+        {
+            int[] myNumbers = {1, 2, 3};
+            System.out.println(myNumbers[10]);
+        }
+        catch (Exception s) {
+            System.out.println("Something went wrong.");
+        }
+        System.out.println(5);
     }
+
+
+
 }
